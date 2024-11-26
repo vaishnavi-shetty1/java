@@ -42,3 +42,16 @@ Code Structure
   * Provides logic for resizing width and height and prints the updated values.
 * InterfaceMain Class
   * Contains the main method to test the Rectangle class and the resizing functionality.
+
+# MultiThreads.java
+This program demonstrates the use of multi-threading in Java. It creates and manages multiple threads by both extending the Thread class and implementing the Runnable interface. The program creates three child threads, each with a different name, and shows how they run concurrently with the main thread.
+
+Program Overview
+- TestThread Class: This class extends Thread and implements Runnable. It has a constructor that accepts a thread name and a run() method that is executed when the thread is started. The run() method prints the name of the thread and then exits after a short sleep.
+- MultiThreads Class: This is the main class, which creates three TestThread instances (each representing a separate thread), starts them, and prints a message from the main thread.
+
+Features
+- Demonstrates thread creation using both extending the Thread class and implementing the Runnable interface.
+- Each thread prints its name and exits after sleeping for 500ms.
+- The main thread executes before the child threads start running, demonstrating thread concurrency.
+- Handles InterruptedException in case a thread is interrupted during its execution.
