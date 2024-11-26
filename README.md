@@ -1,3 +1,18 @@
+# ExtendThread.java
+This is a simple Java program that demonstrates how to create and manage threads by extending the Thread class. The program showcases the concept of multi-threading, where the main thread and a child thread run concurrently.
+
+Program Overview
+- The program defines a class NewThread that extends the Thread class and overrides its run() method.
+- The child thread (NewThread) prints numbers from 5 to 1 with a delay of 500ms between each print.
+- The main thread does the same, printing numbers from 5 to 1 with a delay of 1000ms.
+- Both threads (main and child) run concurrently and demonstrate thread execution and interruption.
+  
+Features
+- Demonstrates thread creation by extending the Thread class.
+- Uses the Thread.sleep() method to simulate some delay between prints.
+- Includes basic exception handling with InterruptedException.
+- Shows how two threads (main and child) can run concurrently.
+
 # InterfaceMain.java
 This Java program demonstrates the use of an interface (Resizable) and its implementation in a Rectangle class. The interface allows for resizing the width and height of a rectangle, and the Rectangle class provides the actual resizing logic.
 
