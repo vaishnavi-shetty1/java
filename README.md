@@ -55,3 +55,13 @@ Features
 - Each thread prints its name and exits after sleeping for 500ms.
 - The main thread executes before the child threads start running, demonstrating thread concurrency.
 - Handles InterruptedException in case a thread is interrupted during its execution.
+
+# MyPoints.java
+The MyPoints class represents a 2D point with x and y coordinates. This class includes methods for setting and getting coordinates, calculating distances between points, and providing string representations of points. It demonstrates the use of constructors, method overloading, and array handling in Java.
+
+Features
+- Default Constructor: Initializes the point to (0, 0).
+- Overloaded Constructor: Initializes the point with specified x and y values.
+- Set and Get Coordinates: Allows updating and retrieving the x and y coordinates.
+- Distance Calculations: Includes methods to calculate the distance between two points, as well as from a point to the origin (0, 0).
+- String Representation: Provides a method to return the point in the form (x, y).
