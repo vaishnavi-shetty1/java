@@ -65,3 +65,13 @@ Features
 - Set and Get Coordinates: Allows updating and retrieving the x and y coordinates.
 - Distance Calculations: Includes methods to calculate the distance between two points, as well as from a point to the origin (0, 0).
 - String Representation: Provides a method to return the point in the form (x, y).
+
+# NestedClassDemo.java
+This project demonstrates the use of nested classes in Java. Specifically, it shows how to use inner classes defined within an outer class. The example consists of two classes:
+- Outer class (Outer): Contains member variables x and y, a constructor to initialize them, and a method display() to print their values.
+- Inner class (Inner): Defined within the Outer class, it contains its own member variables m and n, a constructor to initialize them, and a method display() to print their values.
+  
+Features
+- Outer Class: Demonstrates how an outer class can hold data and functionality that is separate from an inner class.
+- Inner Class: Shows how an inner class can access and operate on its own data and can be instantiated from the outer class.
+- Nested Class Instantiation: Illustrates how to instantiate an inner class using an instance of the outer class.
