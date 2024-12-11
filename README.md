@@ -75,3 +75,23 @@ Features
 - Outer Class: Demonstrates how an outer class can hold data and functionality that is separate from an inner class.
 - Inner Class: Shows how an inner class can access and operate on its own data and can be instantiated from the outer class.
 - Nested Class Instantiation: Illustrates how to instantiate an inner class using an instance of the outer class.
+
+Explanation
+- The Outer class has two integer variables (x and y) and a method display() to print their values.
+- The Inner class is defined inside the Outer class and has its own variables (m and n). The display() method of the Inner class prints its own variables.
+- In the NestedClassDemo class, the Outer object is created and its display() method is called.
+- The Inner class is instantiated using the outerObj.new Inner(5, 15) syntax, which demonstrates how to create an instance of an inner class from an instance of the outer class. The Inner class's display() method is then called.
+
+# Poly.java
+This project demonstrates the concept of polymorphism in Java through the use of method overriding in a simple shape drawing application. The example features a base class Shape and three subclasses: Circle, Triangle, and Square. The methods draw() and erase() are overridden in each subclass to provide specific implementations.
+
+Features
+- Base Class (Shape): Contains generic methods draw() and erase() that are meant to be overridden by subclasses.
+- Derived Classes (Circle, Triangle, Square): Each class overrides the draw() and erase() methods to provide specific behavior for different shapes.
+- Polymorphism: The program demonstrates polymorphism by using a reference of type Shape to refer to objects of the subclasses and call their overridden methods.
+
+Explanation
+- Base Class (Shape): The Shape class contains two methods, draw() and erase(), which provide generic implementations for drawing and erasing a shape. These methods are intended to be overridden by subclasses.
+- Derived Classes: The Circle, Triangle, and Square classes extend the Shape class and provide their own implementations of draw() and erase(), which are specific to each shape.
+- Polymorphism: In the Poly class, a reference of type Shape is used to point to instances of Circle, Triangle, and Square. This demonstrates polymorphism, where the actual method invoked depends on the object's runtime type, not the reference type. The displayShape() method accepts a Shape object and calls its draw() and erase() methods, showcasing dynamic method dispatch.
+  
