@@ -94,4 +94,16 @@ Explanation
 - Base Class (Shape): The Shape class contains two methods, draw() and erase(), which provide generic implementations for drawing and erasing a shape. These methods are intended to be overridden by subclasses.
 - Derived Classes: The Circle, Triangle, and Square classes extend the Shape class and provide their own implementations of draw() and erase(), which are specific to each shape.
 - Polymorphism: In the Poly class, a reference of type Shape is used to point to instances of Circle, Triangle, and Square. This demonstrates polymorphism, where the actual method invoked depends on the object's runtime type, not the reference type. The displayShape() method accepts a Shape object and calls its draw() and erase() methods, showcasing dynamic method dispatch.
-  
+
+# abShape.java
+This project demonstrates the use of abstract classes and method overriding in Java to calculate the area and perimeter of different geometric shapes. The example defines an abstract class abShape with abstract methods calculateArea() and calculatePerimeter(). Two concrete classes, Circle1 and Triangle1, extend abShape and provide specific implementations for calculating the area and perimeter for a circle and a triangle.
+
+Features
+- Abstract Class (abShape): Defines the structure for shapes with abstract methods calculateArea() and calculatePerimeter().
+- Concrete Classes (Circle1, Triangle1): Each class implements the abstract methods for calculating the area and perimeter of specific shapes (circle and triangle).
+- Heron’s Formula: Used in the Triangle1 class to calculate the area of a triangle given its three sides.
+
+Explanation
+- Abstract Classes: abShape is an abstract class that cannot be instantiated directly. It forces any subclass to implement the calculateArea() and calculatePerimeter() methods.
+- Polymorphism: By using the abstract class abShape as the reference type for both Circle1 and Triangle1, the program demonstrates polymorphism. The correct calculateArea() and calculatePerimeter() methods are invoked based on the actual object type at runtime.
+- Heron's Formula: The Triangle1 class uses Heron's formula to calculate the area of the triangle, which is particularly useful when only the sides of the triangle are known.
