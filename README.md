@@ -107,3 +107,18 @@ Explanation
 - Abstract Classes: abShape is an abstract class that cannot be instantiated directly. It forces any subclass to implement the calculateArea() and calculatePerimeter() methods.
 - Polymorphism: By using the abstract class abShape as the reference type for both Circle1 and Triangle1, the program demonstrates polymorphism. The correct calculateArea() and calculatePerimeter() methods are invoked based on the actual object type at runtime.
 - Heron's Formula: The Triangle1 class uses Heron's formula to calculate the area of the triangle, which is particularly useful when only the sides of the triangle are known.
+
+# cmdTest.java
+This is a simple Java program that performs matrix addition. It reads two matrices from the user input, adds them, and then displays the resultant matrix.
+
+Features
+- Takes the order of the matrices as input from the command line.
+- Reads two matrices of the given order.
+- Adds the two matrices element-wise.
+- Displays the resulting matrix after addition.
+
+Code Explanation
+- Matrix Initialization: The program creates two 2D arrays (a and b) to hold the values of the two matrices, and another 2D array (c) to store the result of their addition.
+- Matrix Input: The matRead() method reads the matrix values from the user. It uses BufferedReader to take input from the command line.
+- Matrix Addition: The matAdd() method adds the two matrices element by element and stores the result in the c array.
+- Matrix Output: The matDisp() method prints the resulting matrix.
