@@ -122,3 +122,12 @@ Code Explanation
 - Matrix Input: The matRead() method reads the matrix values from the user. It uses BufferedReader to take input from the command line.
 - Matrix Addition: The matAdd() method adds the two matrices element by element and stores the result in the c array.
 - Matrix Output: The matDisp() method prints the resulting matrix.
+
+# customException
+This Java program demonstrates the use of custom exceptions to handle division by zero errors. It defines a custom exception class DivisionByZeroException and uses it in a method that performs division. If the divisor is zero, the program throws and catches a custom exception to handle the error gracefully.
+
+Features
+- Demonstrates how to create and use custom exceptions in Java.
+- Handles division by zero errors with a custom exception (DivisionByZeroException).
+- Uses a try-catch-finally block to handle errors and ensure the execution of clean-up code.
+- Provides detailed error messages for users when a division by zero occurs.
