@@ -147,3 +147,23 @@ Code Explanation:
   - raiseSalary(double p) method calculates the new salary after applying the raise.
   - disp() method prints the employee details to the console.
 - Main method: Takes input for employee details, creates an instance of the employee class, displays the details, and applies the salary raise based on the entered percentage.
+
+# stackGen.java
+This is a Java program that simulates stack operations such as push and pop on a stack of integers. The program demonstrates how to manage a stack, handle overflow/underflow conditions, and display the stack elements.
+
+Features:
+- Push operation: Allows the user to insert elements into the stack until it reaches its maximum size.
+- Pop operation: Allows the user to remove elements from the stack and displays the popped element.
+- Display stack: Shows the current contents of the stack.
+- Overflow and underflow handling: Alerts the user when the stack is full (overflow) or empty (underflow).
+
+Code Explanation:
+- stackGen class:
+  - stack[]: An array of size 10 used to store the stack elements.
+  - top: Keeps track of the top element index in the stack.
+  - push(int ele): Pushes an element onto the stack. It checks for stack overflow and returns a flag.
+  - pop(): Pops an element from the stack and prints it. It checks for stack underflow and returns a flag.
+  - display(): Displays all the elements currently in the stack.
+- Main method:
+  - Prompts the user for input and calls the push method until the stack is full.
+  - After pushing elements, it displays the stack and proceeds with the pop operation to remove and display elements until the stack is empty.
