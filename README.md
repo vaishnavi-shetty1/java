@@ -131,3 +131,19 @@ Features
 - Handles division by zero errors with a custom exception (DivisionByZeroException).
 - Uses a try-catch-finally block to handle errors and ensure the execution of clean-up code.
 - Provides detailed error messages for users when a division by zero occurs.
+
+# employee.java
+This is a simple Java program that allows input of employee details (ID, name, and salary) and then calculates a salary raise based on a percentage provided by the user. The program displays employee information before and after the salary raise.
+
+Features:
+- Input employee ID, name, and salary.
+- Display employee details.
+- Apply salary raise based on the provided percentage.
+- Display updated employee salary after the raise.
+
+Code Explanation:
+- employee class: Contains attributes like EmpId, Name, Salary, and percent.
+  - Constructor initializes the employee details.
+  - raiseSalary(double p) method calculates the new salary after applying the raise.
+  - disp() method prints the employee details to the console.
+- Main method: Takes input for employee details, creates an instance of the employee class, displays the details, and applies the salary raise based on the entered percentage.
